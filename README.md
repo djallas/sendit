@@ -1,52 +1,52 @@
-##sendit
+# sendit
 SendIT is a courier service that helps users deliver parcels to different destination
 
 
-##How to use UI Framework?
+## How to use UI Framework?
 
-#1. helpers
+## 1. helpers
 
 Wrap section in max width of 1280px
 .container
 
 Hide element
 
-<pre>.hide</pre>
+`.hide`
 
 Hide element on large screen
-<pre>.hide-on-large</pre>
+`.hide-on-large`
 
 Hide element on medium screen
-<pre>.hide-on-medium</pre>
+`.hide-on-medium`
 
 Hide element on small screen
-<pre>.hide-on-small</pre>
+`.hide-on-small`
 
-#Border
+### Border
 
 initiate border
-<pre>.border</pre>
+`.border`
 
 border color
 white
-<pre>.b-lite</pre>
+`.b-lite`
 
 grey
-<pre>.b-grey</pre>
+`.b-grey`
 
 red
-<pre>.b-red</pre>
+`.b-red`
 
 black
-<pre>.b-red</pre>
+`.b-red`
 
 indigo
-<pre>.b-indigo</pre>
+`.b-indigo`
 
 Clearfix
 .clear
 
-#Aligment
+#### Aligment
 
 center
 .center-align
@@ -58,7 +58,7 @@ right
 .right-align
 
 
-#2. Playing with Padding
+## 2. Playing with Padding
 
 small padding
 .s-padding
@@ -85,69 +85,69 @@ extra large padding
 .xxl-h-padding
 .xxl-v-padding
 
-#3. Playing with Margin
+## 3. Playing with Margin
 
 
-#4. Typography
+## 4. Typography
 
-#font family
+### font family
 
 Paragraphs: exo
 
 Heading: Krub
 
 Small text
-<pre>.s-text</pre>
+`.s-text`
 
 Medium text
-<pre>.m-text</pre>
+`.m-text`
 
 Large text
-<pre>.l-text</pre>
+`.l-text`
 
 Extra large text
-<pre>.xl-text</pre>
+`.xl-text`
 
 Extra-extra large text
-<pre>.xxl-text</pre>
+`.xxl-text`
 
 
 
 
-#5. grid
+## 5. grid
 
 Grid must be wrap in row
-<pre>.row</pre>
+`.row`
 
 
 
 
 button
 
-#6. Color palette
+## 6. Color palette
 
 white
-<pre>.white</pre>
+`.white`
 
 black
-<pre>.black</pre>
+`.black`
 
 grey
-<pre>.grey</pre>
+`.grey`
 
 indigo
-<pre>.indigo</pre>
+`.indigo`
 
 
-#7. form
+## 7. form
 
 
-#8. Button
+## 8. Button
 
 initiate button
-<pre>.btn</pre>
+`.btn`
 
 
-#9. Managing Image
+## 9. Managing Image
 
-If your wrap to wrap image to fix the width of a container, you must add <pre>.image</pre> in the parent container of a image
+If your wrap to wrap image to fix the width of a container, you must add `.image` in the parent container of a image
