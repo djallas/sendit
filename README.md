@@ -119,10 +119,9 @@ Extra-extra large text
 Grid must be wrap in row
 `.row`
 
-
-
-
-button
+|  | Small  |  Medium | Large |
+| ------- | --- | --- | --- |
+| Prefix | .s | .m | .l |
 
 ## 6. Color palette
 
