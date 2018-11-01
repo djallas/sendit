@@ -34,7 +34,7 @@ Hide element on small screen
 Initiate border
 `.border`
 
-Border color
+### Border color
 White
 `.b-lite`
 
@@ -50,7 +50,8 @@ Black
 Indigo
 `.b-indigo`
 
-Clearfix
+
+### Clearfix
 `.clear`
 
 #### Aligment
@@ -172,6 +173,9 @@ Grey
 Indigo
 `.indigo`
 
+- Add `text- ` prefix before the defined color class to apply it on text 
+
+- `darken-1` , `darken-2` and `darken-3` gives option to play with strongness of the color 
 
 ## 7. form
 
