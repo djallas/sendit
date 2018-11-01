@@ -7,13 +7,17 @@ To get started, you must call your css file in your html page
 
 <link rel="stylesheet" href="css/style.0.1.css">
 
+### Font family used: 
+
+Paragraphs: exo
+Heading: Krub
+
 ## 1. helpers
 
 Wrap element with max width of 1280px
 `.container`
 
 Hide element
-
 `.hide`
 
 Hide element on large screen
@@ -27,23 +31,23 @@ Hide element on small screen
 
 ### Border
 
-initiate border
+Initiate border
 `.border`
 
-border color
-white
+Border color
+White
 `.b-lite`
 
-grey
+Grey
 `.b-grey`
 
-red
+Red
 `.b-red`
 
-black
+Black
 `.b-red`
 
-indigo
+Indigo
 `.b-indigo`
 
 Clearfix
@@ -51,79 +55,83 @@ Clearfix
 
 #### Aligment
 
-center
+Center
 `.center-align`
 
-left
+Left
 `.left-align`
 
-right
+Right
 `.right-align`
 
 
 ## 2. Playing with Padding
 
-small padding
+**-h-** indicate that the property is applied horizontally on a given selector
+**-v-** indicate that the property is applied veritically on a given selector
+
+Small padding
 
 `.s-padding`
 `.s-h-padding`
 `.s-v-padding`
 
-medium padding
+Medium padding
+
 `.m-padding`
 `.m-h-padding`
 `.m-v-padding`
 
-large padding
+Large padding
+
 `.l-padding`
 `.l-h-padding`
 `.l-v-padding`
 
-extra large padding
+Extra large padding
+
 `.xl-padding`
 `.xl-h-padding`
 `.xl-v-padding`
 
-extra large padding
+Extra large padding
+
 `.xxl-padding`
 `.xxl-h-padding`
 `.xxl-v-padding`
 
 ## 3. Playing with Margin
 
-small margin
+**-h-** indicate that the property is applied horizontally on a given selector
+**-v-** indicate that the property is applied veritically on a given selector
+
+Small margin
 
 `.s-margin`
 `.s-h-margin`
 `.s-v-margin`
 
-medium margin
+Medium margin
 `.m-margin`
 `.m-h-margin`
 `.m-v-margin`
 
-large padding
+Large padding
 `.l-margin`
 `.l-h-margin`
 `.l-v-margin`
 
-extra large padding
+Extra large padding
 `.xl-margin`
 `.xl-h-margin`
 `.xl-v-margin`
 
-extra large padding
+Extra large padding
 `.xxl-margin`
 `.xxl-h-margin`
 `.xxl-v-margin`
 
 ## 4. Typography
-
-### font family
-
-Paragraphs: exo
-
-Heading: Krub
 
 Small text
 `.s-text`
@@ -141,8 +149,6 @@ Extra-extra large text
 `.xxl-text`
 
 
-
-
 ## 5. grid
 
 Grid must be wrap in row
@@ -154,22 +160,22 @@ Grid must be wrap in row
 
 ## 6. Color palette
 
-white
+White
 `.white`
 
-black
+Black
 `.black`
 
-grey
+Grey
 `.grey`
 
-indigo
+Indigo
 `.indigo`
 
 
 ## 7. form
 
-input, textarea, radio, checkbox and button must be in `.input-field`
+Input, textarea, radio, checkbox and button must be in `.input-field` `div` or `p`
 
 #### example
 ```
@@ -181,7 +187,7 @@ input, textarea, radio, checkbox and button must be in `.input-field`
 
 ## 8. Button
 
-initiate button
+Initiate button
 `.btn`
 
 
