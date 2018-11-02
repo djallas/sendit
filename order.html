@@ -11,10 +11,9 @@
     <meta name="author" content="Gilles Kagarama">
     <link rel="stylesheet" href="css/style.0.1.css">
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/map.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <style>
-        #canvas{width:800px;height:800px;;background: red}
+        #canvas{width:100%;height:800px;;background: grey}
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCnmF76KmYp7VSKH0E_N6q7jgig3N-gzo&libraries=places" type="text/javascript"></script>
 </head>
@@ -23,7 +22,7 @@
     <header class="on-scroll-shadow">
             <div class="container">
                 <nav>
-                    <div class="s4 m4 l1">
+                <div class="s4 m4 l1">
                         <ul class="list-inline left-align">
                             <li class="">
                                 <a href="#" class="xl-text hide-on-large" onclick="toggleSidebar();return false;">
@@ -184,6 +183,17 @@
 <div class="clear"></div>
     <br>
     <br>
+    <div id="sidebar" class="hide white shadow-5">
+        <a href="#" onclick="closeSidebar();return false;" class="right white l-margin m-padding radius-1 shadow-2"> <span class="fas fa-times"></span> </a>
+        <ul class="list-block mainmenu">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="index.html#how-it-work">How it work?</a> </li>
+            <li><a href="index.html#pricing">Pricing </a> </li>
+            <li><a href="index.html#contact">Contact us</a> </li>
+            <li><a href="login.html">Login</a> </li>
+            <li><a href="register.html">Register</a></li>
+        </ul>                    
+    </div>    
     <footer class="indigo darken-3 text-white">
         <div class="container center-align">
             <div class="xl-padding">
