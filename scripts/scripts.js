@@ -16,7 +16,5 @@ window.addEventListener('scroll', function() {
     var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
     var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
     var val = document.getElementsByClassName("on-scroll-shadow");
-    if(top > 5){
-    val.style.background = "red";
-    }
+
 });

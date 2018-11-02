@@ -12,7 +12,8 @@ section {
   padding:0.001em 0;
 }
 
-header{position: fixed;width:100%;top:0;z-index:2;}
+/* header{position: fixed;width:100%;top:0;z-index:2;} */
+header{z-index:2;}
 .mainmenu{padding:0.2em 0}
 .mainmenu li{padding:0.5em}
 .mainmenu a{padding:0.8em;font-size:1em}
@@ -29,11 +30,13 @@ header{position: fixed;width:100%;top:0;z-index:2;}
 .left-align{text-align: left}
 .center-align{text-align: center}
 .right-align{text-align: right}
+.center{margin:0 auto}
 /* heading */
 h1,h2,h3,h4,h5{font-family: 'Krub', sans-serif;}
 /* container */
 .container {margin: 0 auto;max-width: 1280px;}
-.content {position: relative;margin-top:60px;z-index:1;}
+/* .content {position: relative;margin-top:60px;z-index:1;} */
+.content {}
 /* lists */
 .list-inline li{display:inline;float:left;}
 .list-block li{display:block}
@@ -86,7 +89,7 @@ h1,h2,h3,h4,h5{font-family: 'Krub', sans-serif;}
     }
 }
 @media screen and (min-width: 761px) and (max-width: 999px){
-    .container {width:80%;}
+    .container {width:96%;}
     .hide-on-medium{display: none}
     .s1{
         width:auto
@@ -108,7 +111,7 @@ h1,h2,h3,h4,h5{font-family: 'Krub', sans-serif;}
     } 
 }
 @media screen and (max-width: 760px){
-    .container {width:80%;}
+    .container {width:98%;}
     .hide-on-small{display: none}
     .s1{
         width:24%!important
